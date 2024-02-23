@@ -1,0 +1,73 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(14, 8, 0, 0.64);
+  font-family: sans-serif;
+  margin: 50px 150px;
+  padding: 0;
+}
+
+.square {
+  background: #fce9cb;
+  box-shadow: 0 0 10px rgb(1, 1, 46);
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 13vh;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 10vw;
+}
+
+.board-row:after {
+  clear: both;
+  content: '';
+  display: table;
+
+}
+
+.status {
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 0 5px rgb(1, 1, 46);
+  border-radius: 50px;
+}
+.game {
+  display: flex;
+  padding: 50px 10px;
+  margin: 50px 100px;
+  height: 80vh;
+  width: 60vw;
+  justify-content: center;
+  box-shadow: 0 0 90px 10px rgb(1, 40, 6);
+  border-radius: 10px;
+  background: url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=400);
+
+}
+
+.description {
+  padding: 7px;
+  margin: 2px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #323131;
+  background: transparent;
+  box-shadow: 0 0 5px 0px rgb(1, 1, 46);
+}
+
+li {
+  list-style: none;
+}
+
+.game-info {
+  margin: 70px 0 0 -37px;
+}
